@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_section_tags",
+  "info": {
+    "singularName": "experience-section-tag",
+    "pluralName": "experience-section-tags",
+    "displayName": "experience-section-tag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagName": {
+      "type": "string"
+    },
+    "experience_section_items": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::experience-section-item.experience-section-item",
+      "mappedBy": "experience_section_tags"
+    }
+  }
+}
