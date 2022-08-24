@@ -24,9 +24,9 @@
     "imageUrl": {
       "type": "string"
     },
-    "experience_section_tags": {
+    "experience_section_tag": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::experience-section-tag.experience-section-tag",
       "inversedBy": "experience_section_items"
     }

@@ -17,9 +17,9 @@
     },
     "experience_section_items": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::experience-section-item.experience-section-item",
-      "mappedBy": "experience_section_tags"
+      "mappedBy": "experience_section_tag"
     }
   }
 }
