@@ -1,0 +1,47 @@
+{
+    "kind": "collectionType",
+    "collectionName": "articles",
+    "info": {
+        "singularName": "article",
+        "pluralName": "articles",
+        "displayName": "Article"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "articleTitle": {
+            "type": "string"
+        },
+        "articleSub": {
+            "type": "string"
+        },
+        "articleCoverImage": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": true
+        },
+        "articleThumbnail": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": true
+        },
+        "thumbnailSameAsCover": {
+            "type": "boolean"
+        },
+        "articleBody": {
+            "type": "richtext"
+        }
+    }
+}

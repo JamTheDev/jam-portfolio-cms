@@ -1,0 +1,33 @@
+{
+    "kind": "singleType",
+    "collectionName": "about_mes",
+    "info": {
+        "singularName": "about-me",
+        "pluralName": "about-mes",
+        "displayName": "AboutMe"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "shortIntro": {
+            "type": "richtext"
+        },
+        "myPast": {
+            "type": "richtext"
+        },
+        "motivation": {
+            "type": "richtext"
+        },
+        "mission": {
+            "type": "richtext"
+        },
+        "vision": {
+            "type": "richtext"
+        },
+        "experience": {
+            "type": "richtext"
+        }
+    }
+}
