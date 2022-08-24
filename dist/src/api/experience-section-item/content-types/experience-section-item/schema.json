@@ -29,6 +29,16 @@
             "relation": "manyToOne",
             "target": "api::experience-section-tag.experience-section-tag",
             "inversedBy": "experience_section_items"
+        },
+        "mediaUpload": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
         }
     }
 }
