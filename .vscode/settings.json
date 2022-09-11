@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1a75d476-9e5d-4f40-b51e-c553fcef948d/microsoft.web/sites/subscriptions/1a75d476-9e5d-4f40-b51e-c553fcef948d/resourceGroups/jam-portfolio-cms/providers/Microsoft.Web/sites/strapi-cmsweb",
+    "appService.deploySubpath": "."
+}
