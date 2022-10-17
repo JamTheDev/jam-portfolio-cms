@@ -1,0 +1,40 @@
+{
+    "kind": "collectionType",
+    "collectionName": "project_details",
+    "info": {
+        "singularName": "project-detail",
+        "pluralName": "project-details",
+        "displayName": "ProjectDetail"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "projectName": {
+            "type": "string"
+        },
+        "projectDescription": {
+            "type": "string"
+        },
+        "projectLink": {
+            "type": "string"
+        },
+        "year": {
+            "type": "date"
+        },
+        "coverImage": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "writtenIn": {
+            "type": "string"
+        }
+    }
+}
